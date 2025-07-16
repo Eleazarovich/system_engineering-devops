@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# This script runs an infinite loop and handles SIGTERM by displaying a message
+
+while true; do
+  echo "To infinity and beyond"
+  sleep 2
+done
